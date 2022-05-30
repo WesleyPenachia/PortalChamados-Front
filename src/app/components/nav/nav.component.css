@@ -7,9 +7,9 @@
   color: white;
   background: linear-gradient(
     180deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(37, 97, 207, 1) 75%,
-    rgba(0, 212, 255, 1) 100%
+    rgba(78, 115, 251, 1) 0%,
+    rgba(127, 126, 255, 1) 75%,
+    rgba(162, 171, 255, 1) 100%
   );
 }
 
@@ -32,9 +32,9 @@ img {
   color: white;
   background: linear-gradient(
     180deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(37, 97, 207, 1) 75%,
-    rgba(0, 212, 255, 1) 100%
+    rgba(78, 115, 251, 1) 0%,
+    rgba(127, 126, 255, 1) 75%,
+    rgba(162, 171, 255, 1) 100%
   );
   box-shadow: 0.1rem 0.1rem grey;
 }
