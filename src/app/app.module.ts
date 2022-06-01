@@ -32,6 +32,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { TecnicoListComponent } from './components/tecnico-list/tecnico-list.component';
 import { LoginComponent } from './components/login/login.component';
 import { ToastrModule } from 'ngx-toastr';
+import {  AuthIntProvider } from './interceptors/auth.interceptor';
 
 
 @NgModule({
@@ -72,7 +73,7 @@ import { ToastrModule } from 'ngx-toastr';
       progressBar: true
     })
   ],
-  providers: [],
+  providers: [AuthIntProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
