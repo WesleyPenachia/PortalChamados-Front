@@ -38,3 +38,17 @@ img {
   );
   box-shadow: 0.1rem 0.1rem grey;
 }
+
+button{
+  transition: all .5s;
+}
+
+button:hover {
+  background: linear-gradient(
+    180deg,
+    rgb(106, 139, 255) 0%,
+    rgb(155, 155, 255) 75%,
+    rgb(201, 206, 250) 100%
+  );
+  transform: rotateZ(360deg);
+}
