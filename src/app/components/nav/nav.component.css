@@ -3,7 +3,7 @@
 }
 
 .sidenav {
-  width: 13rem;
+  width: 20rem;
   color: white;
   background: linear-gradient(
     180deg,
@@ -15,7 +15,7 @@
 
 img {
   width: 100%;
-  height: 7rem;
+  height: 2rem;
   margin: 0.8rem auto 1rem auto;
 }
 
@@ -39,8 +39,8 @@ img {
   box-shadow: 0.1rem 0.1rem grey;
 }
 
-button{
-  transition: all .5s;
+button {
+  transition: all 0.5s;
 }
 
 button:hover {
@@ -51,4 +51,8 @@ button:hover {
     rgb(201, 206, 250) 100%
   );
   transform: rotateZ(360deg);
+}
+
+mat-drawer-container {
+  min-width: 577px;
 }
