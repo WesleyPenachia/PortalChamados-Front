@@ -50,7 +50,6 @@ button:hover {
     rgb(155, 155, 255) 75%,
     rgb(201, 206, 250) 100%
   );
-  transform: rotateZ(360deg);
 }
 
 mat-drawer-container {
